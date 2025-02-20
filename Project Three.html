@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Olivia Amer's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Olivia Amer">
+    <meta name="description" content="This is my portfolio">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- add icon link -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+
+</head>
+
+<body>
+
+    <header>
+        <section id="head" class="parallax" data-speed="3">
+            <header class="header">
+                <figure class="profile-image">
+                    <img class="img-circle" src="assets/images/me.jpeg" alt="Olivia Amer, Web Designer, Portrait">
+                </figure>
+                <h1 class="title">Olivia Amer</h1>
+                <p class="tagline">
+                    My Portfolio Work<br>
+                    <a href="mailto:ameroliv@myvuw.ac.nz">Email: ameroliv@myvuw.ac.nz</a>
+                </p>
+            </header>
+
+            <!-- Navigation Bar -->
+            <nav class="nav-bar navbar-sticky fixed-top" aria-label="Main Navigation">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="work.html">WORK</a>
+            </nav>
+        </section>
+    </header>
+
+    <section class="container">
+
+        <section class="project_container">
+            <br>
+            <section class="split_screen">
+                <h3>Design Output Communication - Assignment 3 </h3>
+            </section>
+
+            <br>
+            <br>
+            <p><strong>Title:</strong> Communicating Design Output: User Experience Showcase</p>
+            <p><strong>Author:</strong> Liv Amer</p>
+            <p><strong>Course:</strong> IXXN202 • Assignment Three </p>
+            <p><strong>Objective:</strong> Distill and communicate design work through video format, focusing on key
+                components such as the problem, design goals, output, and decision basis.</p>
+
+            <br>
+            <section class="separator"></section>
+            <br>
+
+
+            <!-- Project Context Overview -->
+            <section class="context-section">
+                <h2>Revisiting Project Brief - Assignment Three</h2>
+
+
+                <p>
+                    In this assignment, I will communicate my design output to a general audience through a 3-5
+                    minute video, focusing on clearly explaining the <strong class="strong-highlight">problem</strong>,
+                    the <strong class="strong-highlight">design
+                        goals</strong> and why they are important, the <strong class="strong-highlight">design
+                        output</strong>, and the <strong class="strong-highlight">basis for my design
+                        decisions</strong>. The video will serve as a portfolio piece, showcasing my ability to
+                    distill complex design work and present it using clear, accessible language.
+
+                </p>
+            </section>
+
+
+            <video class="video-border" autoplay onclick="togglePause(this)">
+                <source src="assets/video/AmerLiv_IXXN202_Assignment3 copy.mp4"
+                    alt="Engoo UX design project walk-through" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+
+        </section>
+
+    </section>
+
+    </section>
+
+    <!-- Java script -->
+    <script src="script.js"></script>
+
+</body>
+
+
+
+<!-- ----------------------- Image Modal Script -----------------------  -->
+
+<!-- Modal -->
+<div id="myModal" class="modal" style="display: none;">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="img01" class="modal-content">
+</div>
+
+
+<!-- ----------------------- Footer -----------------------  -->
+
+
+<section class="spacer"></section>
+
+
+<footer class="dark-footer">
+    <section class="footer-container">
+        <!-- Contact Section -->
+        <section class="footer-column">
+            <h4>Contact</h4>
+            <p>Email: <a href="mailto:ameroliv@myvuw.ac.nz">ameroliv@myvuw.ac.nz</a></p>
+            <p>Te Aro, University Student, Third Year</p>
+        </section>
+
+        <!-- Follow Me Section -->
+        <section class="footer-column">
+            <h4>Follow Me</h4>
+            <!-- Social Icons with aria-labels for accessibility -->
+            <section class="social-icons">
+                <a href="#" class="fab fa-facebook-f" aria-label="Facebook"></a>
+                <a href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+                <a href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+            </section>
+
+        </section>
+
+        <!-- Text Widget Section -->
+        <section class="footer-column">
+            <h4>Let's Collaborate - Get in Touch</h4>
+            <p>Whether you have a project in mind, need design expertise, or simply want to connect,
+                I'm here to help bring your vision to life.</p>
+        </section>
+    </section>
+    <section class="footer-bottom">
+        <p>Te Aro, Victoria University Student</p>
+        <p>Copyright © 2025, Olivia Amer</p>
+    </section>
+</footer>
+
+</html>
